@@ -20,7 +20,7 @@ try:
 
     # Inisialisasi Firebase (hanya jika belum diinisialisasi)
     if not firebase_admin._apps:
-        cred = credentials.Certificate(firebase_cred_path)
+        cred = credentials.Certificate("firebase-credentials.json")
         firebase_admin.initialize_app(cred)
 
     # Inisialisasi Firestore
