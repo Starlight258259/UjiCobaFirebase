@@ -1,0 +1,15 @@
+# File kredensial Firebase
+firebase-credentials.json
+
+# File konfigurasi lingkungan
+.env
+
+# Folder atau file hasil build
+__pycache__/
+*.pyc
+
+# File log
+*.log
+
+# Cache Streamlit
+.streamlit/

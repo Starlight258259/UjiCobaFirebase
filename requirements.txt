@@ -1,0 +1,8 @@
+streamlit
+yfinance
+plotly
+numpy
+pandas
+firebase-admin
+google-cloud-firestore
+bcrypt
